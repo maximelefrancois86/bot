@@ -1,28 +1,28 @@
 {
   "@graph" : [ {
-    "@id" : "_:b12",
-    "@type" : "owl:AllDisjointClasses",
-    "members" : {
-      "@list" : [ "bot:Element", "bot:Space", "bot:Storey", "bot:Building" ]
-    }
-  }, {
-    "@id" : "_:b3",
-    "rdf:type" : {
-      "@id" : "foaf:Person"
-    },
-    "name" : "Pieter Pauwels"
-  }, {
-    "@id" : "_:b4",
+    "@id" : "_:b0",
     "rdf:type" : {
       "@id" : "foaf:Person"
     },
     "name" : "Mads Holten Rasmussen"
   }, {
-    "@id" : "_:b5",
+    "@id" : "_:b1",
     "rdf:type" : {
       "@id" : "foaf:Person"
     },
     "name" : "Georg Ferdinand Schneider"
+  }, {
+    "@id" : "_:b2",
+    "rdf:type" : {
+      "@id" : "foaf:Person"
+    },
+    "name" : "Pieter Pauwels"
+  }, {
+    "@id" : "_:b8",
+    "@type" : "owl:AllDisjointClasses",
+    "members" : {
+      "@list" : [ "bot:Element", "bot:Space", "bot:Storey", "bot:Building" ]
+    }
   }, {
     "@id" : "dcterms:contributor",
     "@type" : "owl:AnnotationProperty"
@@ -67,8 +67,8 @@
     "@type" : "owl:Ontology",
     "Language" : "en",
     "dce:description" : "A simple ontology describing the topology of a building",
-    "contributor" : "_:b5",
-    "creator" : [ "_:b3", "_:b4" ],
+    "contributor" : "_:b1",
+    "creator" : [ "_:b2", "_:b0" ],
     "description" : {
       "@language" : "en",
       "@value" : "The Building Topology Ontology (BOT) is a simple ontology defining the core concepts of a building.\nIt is a simple, easy to extend ontology for the construction industry to document and exchange building data on the web.\n\nThe ontology is documented in:\n\nMads Holten Rasmussen, Pieter Pauwels, Christian Anker Hviid and Jan Karlshøj (2017) Proposing a Central AEC Ontology That Allows for Domain Specific Extensions, Lean and Computing in Construction Congress (LC3): Volume I – Proceedings of the Joint Conference on Computing in Construction (JC3), July 4-7, 2017, Heraklion, Greece, pp. 237-244 http://itc.scix.net/cgi-bin/works/Show?lc3-2017-153"
@@ -255,11 +255,11 @@
     } ],
     "range" : "bot:Element",
     "propertyChainAxiom" : [ {
-      "@list" : [ "bot:hasStorey", "bot:hasElement" ]
-    }, {
       "@list" : [ "bot:hasSpace", "bot:containsElement" ]
     }, {
       "@list" : [ "bot:hasSpace", "bot:adjacentElement" ]
+    }, {
+      "@list" : [ "bot:hasStorey", "bot:hasElement" ]
     } ]
   }, {
     "@id" : "bot:hasSpace",
@@ -313,20 +313,15 @@
     "range" : "bot:Storey"
   } ],
   "@context" : {
-    "rest" : {
-      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
-      "@type" : "@id"
-    },
-    "first" : {
-      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
-      "@type" : "@id"
-    },
-    "creator" : {
-      "@id" : "http://purl.org/dc/terms/creator",
-      "@type" : "@id"
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
     },
     "license" : {
       "@id" : "http://purl.org/dc/terms/license",
+      "@type" : "@id"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor",
       "@type" : "@id"
     },
     "Language" : {
@@ -342,6 +337,10 @@
     },
     "preferredNamespacePrefix" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator",
+      "@type" : "@id"
     },
     "modified" : {
       "@id" : "http://purl.org/dc/terms/modified",
@@ -360,8 +359,12 @@
     "title" : {
       "@id" : "http://purl.org/dc/terms/title"
     },
-    "contributor" : {
-      "@id" : "http://purl.org/dc/terms/contributor",
+    "rest" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+      "@type" : "@id"
+    },
+    "first" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
       "@type" : "@id"
     },
     "comment" : {
@@ -385,9 +388,6 @@
     "domain" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#domain",
       "@type" : "@id"
-    },
-    "name" : {
-      "@id" : "http://xmlns.com/foaf/0.1/name"
     },
     "dbo" : "http://dbpedia.org/ontology/",
     "owl" : "http://www.w3.org/2002/07/owl#",

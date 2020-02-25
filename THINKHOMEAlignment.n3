@@ -19,12 +19,12 @@ dcterms:creator  a  owl:AnnotationProperty .
 
 th:Zone  rdfs:subClassOf  bot:Zone .
 
+th:hasDefinedAdjacentSpace
+        rdfs:subPropertyOf  [ owl:inverseOf  bot:adjacentZone ] .
+
 dcterms:modified  a  owl:AnnotationProperty .
 
 dcterms:contributor  a  owl:AnnotationProperty .
-
-th:hasDefinedAdjacentSpace
-        rdfs:subPropertyOf  [ owl:inverseOf  bot:adjacentZone ] .
 
 th:Surface  rdfs:subClassOf  bot:Interface .
 

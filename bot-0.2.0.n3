@@ -87,10 +87,6 @@ bot:Interface  a         owl:Class ;
 
 foaf:name  a    owl:DatatypeProperty .
 
-[ a            owl:AllDisjointClasses ;
-  owl:members  ( bot:Site bot:Element bot:Space bot:Storey bot:Building )
-] .
-
 dcterms:modified  a  owl:AnnotationProperty .
 
 bot:adjacentZone  a   owl:SymmetricProperty , owl:ObjectProperty ;
@@ -104,14 +100,14 @@ bot:Building  a          owl:Class ;
         rdfs:label       "Building"@en , "Edificio"@it , "Bygning"@da , "Gebouw"@nl , "Gebäude"@de ;
         rdfs:subClassOf  bot:Zone .
 
+[ a            owl:AllDisjointClasses ;
+  owl:members  ( bot:Zone bot:Element )
+] .
+
 bot:Space  a             owl:Class ;
         rdfs:comment     "A limited three-dimensional extent defined physically or notionally [ISO 12006-2 (DIS 2013), 3.4.3]"@en , "Een afgebakende driedimensionale omgeving die fysiek of indirect gedefinieerd wordt [ISO 12006-2 (DIS 2013), 3.4.3]"@nl , "En afgrænset tredimensionel udstrækning defineret fysisk eller fiktivt"@da , "Fläche oder Volumen mit tatsächlicher oder theoretischer Begrenzung [ISO 6707-1:2014]"@de ;
         rdfs:label       "Rum"@da , "Ruimte"@nl , "Spazio"@it , "Raum"@de , "Space"@en ;
         rdfs:subClassOf  bot:Zone .
-
-[ a            owl:AllDisjointClasses ;
-  owl:members  ( bot:Zone bot:Element )
-] .
 
 vann:preferredNamespacePrefix
         a       owl:AnnotationProperty .
@@ -139,16 +135,16 @@ bot:    a                              voaf:Vocabulary , owl:Ontology ;
         dce:description                "A simple ontology describing the topology of a building" ;
         dce:title                      "BOT" ;
         dcterms:contributor            [ a          foaf:Person ;
-                                         foaf:name  "Maxime Lefrançois"
-                                       ] ;
-        dcterms:contributor            [ a          foaf:Person ;
                                          foaf:name  "Georg Ferdinand Schneider"
                                        ] ;
-        dcterms:creator                [ a          foaf:Person ;
-                                         foaf:name  "Pieter Pauwels"
+        dcterms:contributor            [ a          foaf:Person ;
+                                         foaf:name  "Maxime Lefrançois"
                                        ] ;
         dcterms:creator                [ a          foaf:Person ;
                                          foaf:name  "Mads Holten Rasmussen"
+                                       ] ;
+        dcterms:creator                [ a          foaf:Person ;
+                                         foaf:name  "Pieter Pauwels"
                                        ] ;
         dcterms:description            "The Building Topology Ontology (BOT) is a simple ontology defining the core concepts of a building.\nIt is a simple, easy to extend ontology for the construction industry to document and exchange building data on the web.\n\nVersion 0.2.0 of the ontology is documented in:\n\nMads Holten Rasmussen, Pieter Pauwels, Maxime Lefrançois, Georg Ferdinand Schneider, Christian Anker Hviid and Jan Karlshøj (2017) Recent changes in the Building Topology Ontology, 5th Linked Data in Architecture and Construction Workshop (LDAC2017), November 13-15, 2017, Dijon, France, https://www.researchgate.net/publication/320631574_Recent_changes_in_the_Building_Topology_Ontology\n\nThe initial version of the ontology was documented in:\n\nMads Holten Rasmussen, Pieter Pauwels, Christian Anker Hviid and Jan Karlshøj (2017) Proposing a Central AEC Ontology That Allows for Domain Specific Extensions, Lean and Computing in Construction Congress (LC3): Volume I – Proceedings of the Joint Conference on Computing in Construction (JC3), July 4-7, 2017, Heraklion, Greece, pp. 237-244 https://doi.org/10.24928/JC3-2017/0153"@en ;
         dcterms:issued                 "2017-10-27"^^xsd:date ;
@@ -171,3 +167,7 @@ bot:Storey  a            owl:Class ;
         rdfs:comment     "Die Gesamtheit aller Räume in einem Gebäude, die auf einer Zugangsebene liegen und horizontal verbunden sind"@de , "Een horizontaal gedeelte van een gebouw"@nl , "A level part of a building"@en , "Et plan i en bygning"@da ;
         rdfs:label       "Verdieping"@nl , "Piano di edificio"@it , "Storey"@en , "Etage"@da , "Geschoss (Architektur)"@de ;
         rdfs:subClassOf  bot:Zone .
+
+[ a            owl:AllDisjointClasses ;
+  owl:members  ( bot:Site bot:Element bot:Space bot:Storey bot:Building )
+] .

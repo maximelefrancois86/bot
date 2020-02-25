@@ -22,18 +22,18 @@
 <https://w3id.org/bot#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.researchgate.net/publication/320631574_Recent_changes_in_the_Building_Topology_Ontology> .
 <https://w3id.org/bot#> <http://purl.org/dc/terms/title> "BOT: Building Topology Ontology"@en .
 <https://w3id.org/bot#> <http://purl.org/dc/terms/description> "The Building Topology Ontology (BOT) is a simple ontology defining the core concepts of a building.\nIt is a simple, easy to extend ontology for the construction industry to document and exchange building data on the web.\n\nVersion 0.2.0 of the ontology is documented in:\n\nMads Holten Rasmussen, Pieter Pauwels, Maxime Lefrançois, Georg Ferdinand Schneider, Christian Anker Hviid and Jan Karlshøj (2017) Recent changes in the Building Topology Ontology, 5th Linked Data in Architecture and Construction Workshop (LDAC2017), November 13-15, 2017, Dijon, France, https://www.researchgate.net/publication/320631574_Recent_changes_in_the_Building_Topology_Ontology\n\nThe initial version of the ontology was documented in:\n\nMads Holten Rasmussen, Pieter Pauwels, Christian Anker Hviid and Jan Karlshøj (2017) Proposing a Central AEC Ontology That Allows for Domain Specific Extensions, Lean and Computing in Construction Congress (LC3): Volume I – Proceedings of the Joint Conference on Computing in Construction (JC3), July 4-7, 2017, Heraklion, Greece, pp. 237-244 https://doi.org/10.24928/JC3-2017/0153"@en .
-_:B9351a9e027b572ef6644b28b4a5fb3d5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:B9351a9e027b572ef6644b28b4a5fb3d5 <http://xmlns.com/foaf/0.1/name> "Mads Holten Rasmussen" .
-<https://w3id.org/bot#> <http://purl.org/dc/terms/creator> _:B9351a9e027b572ef6644b28b4a5fb3d5 .
-_:B1fdc6429244fb5dd5d277e8c83dc8c7c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:B1fdc6429244fb5dd5d277e8c83dc8c7c <http://xmlns.com/foaf/0.1/name> "Pieter Pauwels" .
-<https://w3id.org/bot#> <http://purl.org/dc/terms/creator> _:B1fdc6429244fb5dd5d277e8c83dc8c7c .
-_:B75f197668f174728c7fde4a86a15e8e8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:B75f197668f174728c7fde4a86a15e8e8 <http://xmlns.com/foaf/0.1/name> "Georg Ferdinand Schneider" .
-<https://w3id.org/bot#> <http://purl.org/dc/terms/contributor> _:B75f197668f174728c7fde4a86a15e8e8 .
-_:Bdfbd0c6b7b2d585b8602dfd8f77fc620 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:Bdfbd0c6b7b2d585b8602dfd8f77fc620 <http://xmlns.com/foaf/0.1/name> "Maxime Lefrançois" .
-<https://w3id.org/bot#> <http://purl.org/dc/terms/contributor> _:Bdfbd0c6b7b2d585b8602dfd8f77fc620 .
+_:Bbedd89b8b09cf9b7424f94bde8837161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:Bbedd89b8b09cf9b7424f94bde8837161 <http://xmlns.com/foaf/0.1/name> "Mads Holten Rasmussen" .
+<https://w3id.org/bot#> <http://purl.org/dc/terms/creator> _:Bbedd89b8b09cf9b7424f94bde8837161 .
+_:B9284be417dc84ef3419187c666c1e8a9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B9284be417dc84ef3419187c666c1e8a9 <http://xmlns.com/foaf/0.1/name> "Pieter Pauwels" .
+<https://w3id.org/bot#> <http://purl.org/dc/terms/creator> _:B9284be417dc84ef3419187c666c1e8a9 .
+_:Bbaa688b7002774c2256a1b59fd56c3a5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:Bbaa688b7002774c2256a1b59fd56c3a5 <http://xmlns.com/foaf/0.1/name> "Georg Ferdinand Schneider" .
+<https://w3id.org/bot#> <http://purl.org/dc/terms/contributor> _:Bbaa688b7002774c2256a1b59fd56c3a5 .
+_:B3371c00f43a8cc0d91a8fe81cfffbb84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B3371c00f43a8cc0d91a8fe81cfffbb84 <http://xmlns.com/foaf/0.1/name> "Maxime Lefrançois" .
+<https://w3id.org/bot#> <http://purl.org/dc/terms/contributor> _:B3371c00f43a8cc0d91a8fe81cfffbb84 .
 <https://w3id.org/bot#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/1.0/> .
 <https://w3id.org/bot#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "bot" .
 <https://w3id.org/bot#> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/bot#> .
@@ -165,11 +165,11 @@ _:Bdfbd0c6b7b2d585b8602dfd8f77fc620 <http://xmlns.com/foaf/0.1/name> "Maxime Lef
 <https://w3id.org/bot#containsElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation til en bygningsdel, som er indeholdt i en zone."@da .
 <https://w3id.org/bot#containsElement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Zone> .
 <https://w3id.org/bot#containsElement> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Element> .
-_:B7a4700cfX2D4248X2D4d5eX2D86c7X2D2a9edea785f4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#containsZone> .
-_:B7a4700cfX2D4248X2D4d5eX2D86c7X2D2a9edea785f4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B91106d12X2D2e09X2D41f7X2DbcabX2Db3044a1976e8 .
-_:B91106d12X2D2e09X2D41f7X2DbcabX2Db3044a1976e8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#containsElement> .
-_:B91106d12X2D2e09X2D41f7X2DbcabX2Db3044a1976e8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<https://w3id.org/bot#containsElement> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:B7a4700cfX2D4248X2D4d5eX2D86c7X2D2a9edea785f4 .
+_:Bc1faa14cX2D5d7eX2D43b9X2D8d50X2Dbf91a507c07c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#containsZone> .
+_:Bc1faa14cX2D5d7eX2D43b9X2D8d50X2Dbf91a507c07c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bdaac16b7X2De8ebX2D434cX2D8d88X2D5c11eefbd54a .
+_:Bdaac16b7X2De8ebX2D434cX2D8d88X2D5c11eefbd54a <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#containsElement> .
+_:Bdaac16b7X2De8ebX2D434cX2D8d88X2D5c11eefbd54a <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/bot#containsElement> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:Bc1faa14cX2D5d7eX2D43b9X2D8d50X2Dbf91a507c07c .
 <https://w3id.org/bot#hostsElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/bot#hostsElement> <http://www.w3.org/2000/01/rdf-schema#label> "hosts element"@en .
 <https://w3id.org/bot#hostsElement> <http://www.w3.org/2000/01/rdf-schema#label> "hoster element"@nl .
@@ -191,25 +191,25 @@ _:B91106d12X2D2e09X2D41f7X2DbcabX2Db3044a1976e8 <http://www.w3.org/1999/02/22-rd
 <https://w3id.org/bot#interfaceOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relationship between an interface and an adjacent zone or element."@en .
 <https://w3id.org/bot#interfaceOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation mellem en grænseflade og en tilstødende zone eller bygningsdel."@da .
 <https://w3id.org/bot#interfaceOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Interface> .
-_:B8033fae81c1e156d9b18da9d26fd187b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:B2d637090X2Df12aX2D4a40X2D9642X2De106fffdef4c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Site> .
-_:B2d637090X2Df12aX2D4a40X2D9642X2De106fffdef4c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B6a84330fX2Daba7X2D459fX2Da557X2D7731688872a3 .
-_:B6a84330fX2Daba7X2D459fX2Da557X2D7731688872a3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Element> .
-_:B6a84330fX2Daba7X2D459fX2Da557X2D7731688872a3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B486638e8X2D2763X2D458cX2Daf07X2Dec9a17689872 .
-_:B486638e8X2D2763X2D458cX2Daf07X2Dec9a17689872 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Space> .
-_:B486638e8X2D2763X2D458cX2Daf07X2Dec9a17689872 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B654759fbX2Df86bX2D4715X2D9a78X2De65bb6193e76 .
-_:B654759fbX2Df86bX2D4715X2D9a78X2De65bb6193e76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Storey> .
-_:B654759fbX2Df86bX2D4715X2D9a78X2De65bb6193e76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B4555e932X2DfbbfX2D48c7X2D8eccX2Df2b77c19c804 .
-_:B4555e932X2DfbbfX2D48c7X2D8eccX2Df2b77c19c804 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Building> .
-_:B4555e932X2DfbbfX2D48c7X2D8eccX2Df2b77c19c804 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:B8033fae81c1e156d9b18da9d26fd187b <http://www.w3.org/2002/07/owl#members> _:B2d637090X2Df12aX2D4a40X2D9642X2De106fffdef4c .
-_:B51220a45e4b5991c731e12423b3f4248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:B74e4a371X2D0c6cX2D46d1X2D979fX2D31e86d214662 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Zone> .
-_:B74e4a371X2D0c6cX2D46d1X2D979fX2D31e86d214662 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B0515db50X2D3bb7X2D474fX2Da4a6X2Dcb98ae924a0e .
-_:B0515db50X2D3bb7X2D474fX2Da4a6X2Dcb98ae924a0e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Element> .
-_:B0515db50X2D3bb7X2D474fX2Da4a6X2Dcb98ae924a0e <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:B51220a45e4b5991c731e12423b3f4248 <http://www.w3.org/2002/07/owl#members> _:B74e4a371X2D0c6cX2D46d1X2D979fX2D31e86d214662 .
-_:B98042a333737f10ba5b972b78ebb29d7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:B98042a333737f10ba5b972b78ebb29d7 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/bot#interfaceOf> .
-_:B98042a333737f10ba5b972b78ebb29d7 <http://www.w3.org/2002/07/owl#cardinality> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<https://w3id.org/bot#Interface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B98042a333737f10ba5b972b78ebb29d7 .
+_:B5e295fd8737e8c5127b1ff27afc2b927 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:B17b596dbX2D4a58X2D41acX2Db38cX2D15166b1490a1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Site> .
+_:B17b596dbX2D4a58X2D41acX2Db38cX2D15166b1490a1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B2eddb25eX2D09deX2D45f0X2Da968X2Dbe383a0a87cf .
+_:B2eddb25eX2D09deX2D45f0X2Da968X2Dbe383a0a87cf <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Element> .
+_:B2eddb25eX2D09deX2D45f0X2Da968X2Dbe383a0a87cf <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B5e9b4533X2De79cX2D4b7eX2D9b12X2D136c01ce0775 .
+_:B5e9b4533X2De79cX2D4b7eX2D9b12X2D136c01ce0775 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Space> .
+_:B5e9b4533X2De79cX2D4b7eX2D9b12X2D136c01ce0775 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B5ad01ad8X2D1c0fX2D4919X2D9036X2Dbf5d4fd3daa1 .
+_:B5ad01ad8X2D1c0fX2D4919X2D9036X2Dbf5d4fd3daa1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Storey> .
+_:B5ad01ad8X2D1c0fX2D4919X2D9036X2Dbf5d4fd3daa1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B6379675aX2Db04fX2D4137X2Da775X2Db8590fceb667 .
+_:B6379675aX2Db04fX2D4137X2Da775X2Db8590fceb667 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Building> .
+_:B6379675aX2Db04fX2D4137X2Da775X2Db8590fceb667 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:B5e295fd8737e8c5127b1ff27afc2b927 <http://www.w3.org/2002/07/owl#members> _:B17b596dbX2D4a58X2D41acX2Db38cX2D15166b1490a1 .
+_:B5512f20e883110bee2dae33846e6644a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:B85873c0fX2Db88eX2D4b1eX2Daa0bX2D2934be9d6f2c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Zone> .
+_:B85873c0fX2Db88eX2D4b1eX2Daa0bX2D2934be9d6f2c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bd6199155X2Ddbc0X2D41edX2Db920X2D16dae6640443 .
+_:Bd6199155X2Ddbc0X2D41edX2Db920X2D16dae6640443 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#Element> .
+_:Bd6199155X2Ddbc0X2D41edX2Db920X2D16dae6640443 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:B5512f20e883110bee2dae33846e6644a <http://www.w3.org/2002/07/owl#members> _:B85873c0fX2Db88eX2D4b1eX2Daa0bX2D2934be9d6f2c .
+_:B8460a91ede60be8c224b6ecc977224f8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B8460a91ede60be8c224b6ecc977224f8 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/bot#interfaceOf> .
+_:B8460a91ede60be8c224b6ecc977224f8 <http://www.w3.org/2002/07/owl#cardinality> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/bot#Interface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B8460a91ede60be8c224b6ecc977224f8 .
